@@ -41,9 +41,11 @@
             <li>
                 <a href="#skills">Skills</a>
             </li>
+            <!--
             <li>
                 <a href="#contact">Contact</a>
             </li>
+            -->
         </ul>
     </header>
     <!-- End header -->
@@ -51,7 +53,7 @@
     <div id="lead">
         <div id="lead-content">
             <h1>Ryan Hui</h1>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <a href="cv/resume.pdf" class="btn-rounded-white" target="_blank">View Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -75,14 +77,14 @@
                 <div class="col-md-8">
                     <p>
                         <!-- TODO: about me section -->
-                        Hi!     
+                        Hi! I am a hobbyist programmer having experience building decision making programs
+                        with Python, SQL, C, C++, javascript, Django among other languages and frameworks.
                     </p>
                 </div>
             </div>
         </div>
     </div>
     <!-- End #about -->
-
     <!--
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
@@ -91,7 +93,7 @@
                 <h3>Employer Name</h3>
                 <h4>Job Title</h4>
                 <p>
-                    
+
                 </p>
             </div>
         </div>
@@ -105,7 +107,8 @@
         <div class="education-block">
             <h3>McGill University</h3>
             <span class="education-date">Sept 2010 - June 2014</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+            <h4>Montreal, QC</h4>
+            <h4>Bachelor of Science in Computer Science and Mathematics</h4>
             <p>
                 <!--  -->
             </p>
@@ -120,15 +123,16 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/project1.jpg" width="50%" align="left"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>NASDAQ Stock Market Application</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            In an attempt to provide a rationale for the actions that I make on the stock market, I am using Python and Django to create an application
+                            which tracks stock market data, calculates metrics, plots graphs and decides if there is evidence to support buying or selling stocks on a particular day.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/rhui-projects/stocksApp" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -136,15 +140,16 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/project2.jpg" width="50%" align="left" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Automation of Administrative Tasks</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            I had an opportunity in 2020 to develop automation tasks using Python, Bash, and Google Scripts to help teachers track pupil progress. The scripts web scrape
+                            various homework websites for student data and compiles it into several spreadsheets. Python scripts were used to help categorise pupil progress and to
+                            help generate relevant email messages to the student pertaining to their current progression.
                         </p>
-                        <a href="#">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -165,23 +170,27 @@
             <li>Java</li>
             <li>C</li>
             <li>C#</li>
-            <li>C++</li>            
+            <li>C++</li>
         </ul>
     </div>
     <!-- End #skills -->
-
+    
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://formspree.io/f/xbjqppba">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
                 <button type="submit">Send</button>
             </form>
         </div>
-        <!-- End #contact-form -->
+        
+    <!-- End #contact-form -->
+    
     </div>
+    
+
     <!-- End #contact -->
 
     <footer>
@@ -189,7 +198,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2020 YOUR NAME
+                        Copyright &copy; 2020 Ryan Hui
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -202,6 +211,7 @@
                         <li>
                             <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
+                        <!--
                         <li>
                             <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
                         </li>
@@ -217,6 +227,7 @@
                         <li>
                             <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                         </li>
+                        -->
                     </ul>
                 </div>
             </div>
